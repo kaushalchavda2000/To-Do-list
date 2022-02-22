@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 50px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(15 1 95) 0%,rgb(34 4 124) 20%,rgb(86 14 201) 70%);
+  background-repeat: no-repeat;
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container h1{
+  font-size: 50px;
+  color: white;
+  font-family: 'Shizuru', cursive;
+}
+
+.form-container{
+  margin-top: 30px;
+  height: 50px;
+}
+
+#todo-text-inputbox{
+  height: 50px;
+  width: 500px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.add-btn-container{
+  display: inline-block;
+  height: 50px;
+  width: 70px;
+}
+
+.add-btn{
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+
+}
+.clickstart{
+  transform: scale(0.95);
+}
+
+.features-buttons-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+hr{
+  width: 80vw;
+  margin: 50px auto 0px;
+}
+
+.delete-all-btn-container,.delete-checked-btn-container{
+  height: 50px;
+  width: 150px;
+  margin: 0px 10px;
+}
+
+.delete-all,.delete-checked{
+  height: 100%;
+  width: 100%;
+}
+.todos-container ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.todos-container li{
+  display: flex;
+  width: 584px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox-container{
+  height: 70px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox{
+  height: 20px;
+  width: 20px;
+}
+
+.todo-text-container{
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.todo-text-container p{
+  padding: 10px;
+}
+
+.todo-buttons-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit{
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.edit img{
+  height: 100%;
+  width: 100%;
+ 
+}
+.delete-btn{
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 10px;
+  background-color: white;
+}
+.delete-btn img{
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>To Do App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="title-container">
+      <h1>To Do List</h1>
+      <form class="form-container">
+        <input type="text" name="todo-text" id="todo-text-inputbox"
+          placeholder="Enter your To Do here...">
+        <div class="add-btn-container">
+          <input type="submit" value="Add" class="btn add-btn" id="add-btn" disabled>
+        </div>
+      </form>
+    </div>
+    <div class="features-buttons-container">
+      <div class="delete-all-btn-container">
+        <button class="btn delete-all" id="delete-all">Delete All</button>
+      </div>
+      <div class="delete-checked-btn-container">
+        <button class="btn delete-checked" id="delete-checked">Delete Checked</button>
+      </div>
+    </div>
+    <hr />
+    <div class="todos-container">
+      <ul id="todo-list">
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
