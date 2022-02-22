@@ -35,7 +35,7 @@ window.addEventListener("load", function () {
     all_delete[index].addEventListener("click", clickAnimation);
     all_delete[index].addEventListener("click", deleteToDo);
   }
-  // window.localStorage.clear();
+  window.localStorage.clear();
 });
 
 //storing data into local storage
@@ -97,7 +97,7 @@ function createToDo() {
     </button>
   </div>`
   new_to_do.id = `todo-${uniqe_id}`;
-  // console.log(new_to_do.id);
+  
   list.appendChild(new_to_do);
 
   // reset the input field and add button
